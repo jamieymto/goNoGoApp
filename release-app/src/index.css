@@ -1,0 +1,39 @@
+:root {
+  --effect: hover 1s linear infinite;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+        "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg");
+
+    background-position: left;
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+main {
+  margin: auto;
+  max-width: 1080px;
+  padding: 20px;
+  min-height: 1380px;
+}
+
+.react-tabs {
+background-color: white;
+height: 100%;
+padding: 10px;
+}
+
+.releaseContainer {
+margin-top: 150px;
+}
+

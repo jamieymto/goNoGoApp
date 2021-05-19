@@ -1,0 +1,8 @@
+{
+    "name": "release-tools",
+    "version": "1.0.0",
+    "scripts": {
+        "deploy": "sh ./deployLambda.sh"
+    }
+  }
+  

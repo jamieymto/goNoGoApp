@@ -1,0 +1,43 @@
+
+.table-container {
+    margin: 10px;
+    padding: 5px;
+}
+thead > tr {
+  background-color: #1a2123;
+  color: #cddbdf;
+}
+
+tr > td {
+  padding: 10px;
+}
+
+th {
+    min-width: 100px;
+    padding: 10px;
+}
+tr:nth-child(even){background-color: #cddbdf;}
+
+tr:hover:not(.expandable) td {
+    cursor: pointer;
+    color: #cddbdf;
+    background-color: #415358;
+}
+
+tr:hover td.highlight div {
+    transform: scaleX(3);
+}
+
+tr.parentRow > td {
+    cursor: pointer;
+}
+
+tr.expandable > td {
+    background-color: #82a6b1;
+    padding: 0;
+}
+
+tr.expandable > td > .inner {
+    margin: 15px;
+    overflow: hidden;
+}
